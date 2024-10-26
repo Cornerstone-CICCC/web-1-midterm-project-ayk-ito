@@ -5,9 +5,405 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header id="header">
+      <span class="icon">
+        <img src="images/pic01.jpg" alt="" />
+      </span>
+      <h1>Ayaka Ito</h1>
+      <div class="social-icons">
+        <a href="https://github.com/ayk-ito" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ayaka-ito-65457b26a" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/ayaito_en" target="_blank" ><i class="fab fa-twitter"></i></a>
+      </div>
+      <p class="jobTitle">Web developer based in Canada</p>
+      <p>
+        With 3 years of experience as a Backend Engineer in Japan. I hope you enjoy exploring this
+        site!
+      </p>
+    </header>
+    <nav id="nav">
+      <ul>
+        <li><a href="#about" class="active">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#workExperience">Work Experience</a></li>
+
+      </ul>
+    </nav>
+    <div id="main">
+      <section id="about" class="main">
+        <h2>About Me</h2>
+        <p>
+          I'm an IT engineer based in Vancouver, Canada. Born and raised in Tokyo, I have worked as
+          a backend engineer for 3 years and as a project manager and product manager for 2 years.
+          Recently, I have been enjoying studying frontend development. I'm always curious about
+          learning new things and excited to be pursuing a diploma in Web Development. I'm looking forward to working and communicating with people from different backgrounds and turning ideas into real solutions.
+        </p>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <div class="project-description">
+              <h3>Portfolio 2024</h3>
+              <p>
+                My personal portfolio website, showcasing my skills, experience, and even more. This project was developed using HTML, CSS, and Sass, focusing on responsive design and accessibility. The design is clean and minimum.
+              </p>
+              <a href="https://github.com/Cornerstone-CICCC/web-1-midterm-project-ayk-ito" target="_blank" class="github-link">
+                <i class="fab fa-github"></i>Code
+              </a>
+            </div>
+            <div class="project-image">
+              <img src="images/portfolio.png" alt="Portfolio Image" />
+            </div>
+          </div>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-wrapper">
+          <div class="skills-category">
+            <h3>Languages and Tools</h3>
+            <div class="skills-container">
+              <div class="skill">
+                <a
+                  href="https://developer.android.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="tooltip"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg"
+                    alt="android"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">Android</span></a
+                >
+              </div>
+              <div class="skill">
+                <a href="https://aws.amazon.com" target="_blank" rel="noreferrer" class="tooltip">
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                    alt="aws"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">AWS</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a
+                  href="https://azure.microsoft.com/en-in/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="tooltip"
+                >
+                  <img
+                    src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+                    alt="azure"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">Azure</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a
+                  href="https://www.w3schools.com/css/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="tooltip"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                    alt="css3"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">CSS3</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a href="https://www.figma.com/" target="_blank" rel="noreferrer" class="tooltip">
+                  <img
+                    src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
+                    alt="figma"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">Figma</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a href="https://git-scm.com/" target="_blank" rel="noreferrer" class="tooltip">
+                  <img
+                    src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+                    alt="git"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">Git</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer" class="tooltip">
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                    alt="html5"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">HTML5</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a href="https://www.java.com" target="_blank" rel="noreferrer" class="tooltip">
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+                    alt="java"
+                    width="40"
+                    height="40"
+                  />
+                  <span class="skill-text">Java</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="tooltip"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                    alt="javascript"
+                    width="40"
+                    height="40"
+                  />
+                  <span class="skill-text">JavaScript</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a href="https://www.jenkins.io" target="_blank" rel="noreferrer" class="tooltip">
+                  <img
+                    src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
+                    alt="jenkins"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">Jenkins</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a href="https://kotlinlang.org" target="_blank" rel="noreferrer" class="tooltip">
+                  <img
+                    src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg"
+                    alt="kotlin"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">Kotlin</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a href="https://nodejs.org" target="_blank" rel="noreferrer" class="tooltip">
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+                    alt="nodejs"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">Node.js</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a
+                  href="https://www.postgresql.org"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="tooltip"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+                    alt="postgresql"
+                    width="40"
+                    height="40"
+                  />
+                  <span class="skill-text">PostgreSQL</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a href="https://postman.com" target="_blank" rel="noreferrer" class="tooltip">
+                  <img
+                    src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+                    alt="postman"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">Postman</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a href="https://www.python.org" target="_blank" rel="noreferrer" class="tooltip">
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                    alt="python"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">Python</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a href="https://reactjs.org/" target="_blank" rel="noreferrer" class="tooltip">
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+                    alt="react"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">React</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a href="https://sass-lang.com" target="_blank" rel="noreferrer" class="tooltip">
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
+                    alt="sass"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">Sass</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a href="https://www.selenium.dev" target="_blank" rel="noreferrer" class="tooltip">
+                  <img
+                    src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg"
+                    alt="selenium"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">Selenium</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a href="https://spring.io/" target="_blank" rel="noreferrer" class="tooltip">
+                  <img
+                    src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
+                    alt="spring"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">Spring</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a
+                  href="https://developer.apple.com/swift/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="tooltip"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg"
+                    alt="swift"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">Swift</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a
+                  href="https://www.typescriptlang.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="tooltip"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+                    alt="typescript"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">TypeScript</span>
+                </a>
+              </div>
+              <div class="skill">
+                <a href="https://vuejs.org/" target="_blank" rel="noreferrer" class="tooltip">
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg"
+                    alt="vuejs"
+                    width="40"
+                    height="40"
+                  /><span class="skill-text">Vue.js</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="skills-category">
+            <h3>Additional Skills</h3>
+            <div class="skills-container">
+              <div class="skill">
+                <span
+                  >Project Management: Team Leadership, Progress Management, ClientNegotiation</span
+                >
+              </div>
+              <div class="skill"><span>Test Automation: Junit, Nightwatch.js</span></div>
+              <div class="skill">
+                <span>Communication Skills: Proficient in speaking and writing</span>
+              </div>
+              <div class="skill">
+                <span
+                  >Adaptability: Quick to learn new technologies and adapt to new environments</span
+                >
+              </div>
+              <div class="skill">
+                <span
+                  >Collaboration: Strong team player, able to lead teams and engage withother
+                  teams</span
+                >
+                <span>&#128170 &#128170 &#128170</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="workExperience" class="main">
+        <h2>Work Experience</h2>
+        <div class="work-experience-container">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Jan 2022 - Apr 2024</div>
+              <h3>Infcurion, Inc</h3>
+              <p>
+                Worked as a project manager and product manager, Managed projects for two products.
+                For the client-facing product implementation project, I managed everything from
+                requirements definition to release and maintenance. Responsibilities included
+                negotiating with clients, creating documentation such as requirements definition
+                documents, progress management, and planning and policy discussions with internal
+                team members.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Apr 2018 - Dec 2021</div>
+              <h3>NTT DATA Frontier</h3>
+              <p>
+                Worked on backend development for internet banking systems for financial
+                institutions for three and a half years (three projects). In the final project, I
+                served as the team leader for a team of three, managing progress and reporting
+                quality to the primary contractor. I also led a Proof of Concept (PoC) development
+                for the renewal of an operational terminal system for regional banks using an agile
+                method. I used Java as the programming language and Struts and Spring as the
+                frameworks, gaining experience in the entire development process.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Ayaka Ito. All rights reserved. &#127752</p>
+      </footer>
   </body>
 </html>
